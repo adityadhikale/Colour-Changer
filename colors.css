@@ -13,7 +13,9 @@
     align-items: center;
     background-color: #034f84;
     color: white;
-
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .color_input {
