@@ -7,13 +7,30 @@
 }
 
 
-.Input {
+header {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    background-color: #034f84;
+    color: white;
+}
+
+.logo{
+    width: 68px;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.logo img{
+    width: 68px;
+}
+
+.Input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #034f84;
     color: white;
-
 }
 
 .color_input {
@@ -42,6 +59,7 @@
     /* font-family: 'Solitreo', cursive; */
     font-family: 'Quicksand', sans-serif;
     font-family: 'Solitreo', cursive;
+    width: 55px;
 }
 
 .submit_btn:hover {

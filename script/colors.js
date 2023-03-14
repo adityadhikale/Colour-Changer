@@ -14,13 +14,14 @@ const Color = (color) => {
     }
 }
 
-// var input = document.getElementById("color_input");
-// input.addEventListener("keypress", function (event) {
-//     if (event.key === 13) {
-//         event.preventDefault();
-//         document.getElementById("submit_btn").click();
-//     }
-// });
+var input = document.getElementById("color_input");
+input.addEventListener('keyup', (event)=> {
+    console.log(input.value)
+    if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementById("submit_btn").click();
+    }
+});
 
 const select_color = () => {
 
